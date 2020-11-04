@@ -7,7 +7,7 @@ This repository holds an example of how to declare a Maven project using
 [[https://github.com/arvyy/kawa-maven-plugin][kawa-maven-plugin]].
 
 You can then declare depndencies on Java libraries, for instance, on
-`org.joda.time`, and use them in a Kawa REPL.
+=org.joda.time=, and use them in a Kawa REPL.
 
 A test is included to show how these interactions can be captured into
 repeatable tests.
