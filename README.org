@@ -21,5 +21,10 @@ $ mvn com.github.arvyy:kawa-maven-plugin:repl
 [INFO] --- kawa-maven-plugin:0.0.4:repl (default-cli) @ kawa-joda ---
 #|kawa:1|# (import (class org.joda.time LocalDate))
 #|kawa:2|# (define dt ::LocalDate (LocalDate 2020 1 1))
+#|kawa:3|# dt
+2020-01-01
+#|kawa:4|# (dt:minusDays 1)
+2019-12-31
+#|kawa:5|# 
 #+end_src
 
