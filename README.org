@@ -1,0 +1,26 @@
+#+TITLE: kawa-joda
+#+SUBTITLE: An example usage of Java dependencies from Kawa
+
+* About
+
+This repository holds an example of how to declare a Maven project using
+[kawa-maven-plugin](https://github.com/arvyy/kawa-maven-plugin), so that you can
+declare depndencies on Java libraries (here, as an example, on `org.joda.time`),
+and use them in a Kawa REPL. A test is included to check how these interactions
+can be captured into repeatable tests.
+
+* Example interaction in the REPL
+
+```console
+$ mvn com.github.arvyy:kawa-maven-plugin:repl
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.github.logc:kawa-joda >----------------------
+[INFO] Building kawa-joda 0.1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- kawa-maven-plugin:0.0.4:repl (default-cli) @ kawa-joda ---
+#|kawa:1|# (import (class org.joda.time LocalDate))
+#|kawa:2|# (define dt ::LocalDate (LocalDate 2020 1 1))
+```
+
