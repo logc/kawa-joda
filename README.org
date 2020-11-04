@@ -11,7 +11,7 @@ can be captured into repeatable tests.
 
 * Example interaction in the REPL
 
-```console
+#+begin_src shell
 $ mvn com.github.arvyy:kawa-maven-plugin:repl
 [INFO] Scanning for projects...
 [INFO] 
@@ -22,5 +22,5 @@ $ mvn com.github.arvyy:kawa-maven-plugin:repl
 [INFO] --- kawa-maven-plugin:0.0.4:repl (default-cli) @ kawa-joda ---
 #|kawa:1|# (import (class org.joda.time LocalDate))
 #|kawa:2|# (define dt ::LocalDate (LocalDate 2020 1 1))
-```
+#+end_src
 
