@@ -3,7 +3,7 @@
 
 * About
 
-This repository holds an example of how to declare a Maven project for the [[ https://www.gnu.org/software/kawa/index.html][Kawa
+This repository holds an example of how to declare a Maven project for the [[https://www.gnu.org/software/kawa/index.html][Kawa
 Scheme language]] using [[https://github.com/arvyy/kawa-maven-plugin][kawa-maven-plugin]].
 
 You can then declare depndencies on Java libraries, for instance, on
